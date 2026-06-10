@@ -16,7 +16,7 @@ export default function Searchfood(){
     if(searchtext.length >= 1){
         
         return(
-        <div className="mx-auto w-[60%]">
+        <div className="mx-auto w-[90%] md:w-[60%]">
         <input type="text" value={searchtext} placeholder={`Search in ${restaurant?.restaurantInfo?.name}`} onChange={(e)=>setsearchtext(e.target.value)} className="border p-3 w-full rounded-xl mx-auto mt-20 mb-20 focus:outline-none"></input>
         
         {filteredItems?.map((iteminfo)=><Menuecard key={iteminfo.id} iteminfo={iteminfo}></Menuecard>)}
