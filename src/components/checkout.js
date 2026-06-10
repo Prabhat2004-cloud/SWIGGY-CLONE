@@ -52,10 +52,10 @@ export default function Checkout(){
                     value={coupon}
                     onChange={(e) => setCoupon(e.target.value)}
                     placeholder="Enter Coupon"
-                    className="border px-3 py-2 rounded-lg"
+                    className="border px-1 md:px-3 py-2 rounded-lg"
                 />
                 <button onClick={() => setAppliedCoupon(coupon)}
-                    className="bg-[#ff5200] text-white md:px-5 py-2 rounded-xl font-semibold  md:ml-2"
+                    className="bg-[#ff5200] text-white px-1 md:px-5 py-2 rounded-xl font-semibold  md:ml-2"
                 >
                     Apply
                 </button>
