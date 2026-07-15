@@ -18,7 +18,6 @@ export default function RestaurantMenu(){
         const response = await fetch(
             `https://swiggy-backend-a1qy.onrender.com/api/restaurants/menu/${id}`
         );
-        https://swiggy-backend-a1qy.onrender.com
 
         const data = await response.json();
 
