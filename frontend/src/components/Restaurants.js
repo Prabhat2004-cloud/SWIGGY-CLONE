@@ -9,7 +9,7 @@ export default function Restaurant(){
 
     const fetchRestaurants = async () => {
 
-        const response = await fetch("http://localhost:5000/api/restaurants");
+        const response = await fetch("https://swiggy-backend-a1qy.onrender.com/api/restaurants");
 
         const data = await response.json();
 

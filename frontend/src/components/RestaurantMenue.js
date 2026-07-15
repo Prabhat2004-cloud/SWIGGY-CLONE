@@ -16,8 +16,9 @@ export default function RestaurantMenu(){
     const fetchMenu = async () => {
 
         const response = await fetch(
-            `http://localhost:5000/api/restaurants/menu/${id}`
+            `https://swiggy-backend-a1qy.onrender.com/api/restaurants/menu/${id}`
         );
+        https://swiggy-backend-a1qy.onrender.com
 
         const data = await response.json();
 
