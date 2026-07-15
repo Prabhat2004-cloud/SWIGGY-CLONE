@@ -1,6 +1,6 @@
 require("dotenv").config();
 const connectDB = require("../config/database");
-const Restaurant = require("../models/Restaurant");
+const Restaurant = require("../models/RestaurantTemp");
 const RestrauData = require("../../frontend/src/utils/restdata_short");
 
 const seedDatabase = async () => {
