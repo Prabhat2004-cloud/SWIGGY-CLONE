@@ -15,7 +15,7 @@ const seedDatabase = async () => {
 
     await Restaurant.insertMany(RestrauData);
 
-    console.log("✅ Restaurants Seeded Successfully");
+    console.log("Restaurants Seeded Successfully");
   } catch (error) {
     console.log(error);
   }
