@@ -1,16 +1,16 @@
 # Dependencies
 **/node_modules
 
-# Environment variables
+# Environment
 **/.env
 
-# Build folders
+# Build
 **/dist
 **/.parcel-cache
 
 # Logs
 *.log
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
